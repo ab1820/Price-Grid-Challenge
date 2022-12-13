@@ -20,3 +20,16 @@ body {
   text-decoration: none;
   background-color: var(--main-background-color);
 }
+
+/* MAIN STYLING - MOBILE FIRST */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  /* align-items: center; */
+  max-width: 375px;
+  margin: auto;
+  align-content: center;
+  transform: translateY(25%);
+}
