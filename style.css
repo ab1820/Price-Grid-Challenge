@@ -30,13 +30,14 @@ body {
   max-width: 375px;
   margin: auto;
   align-content: center;
-  transform: translateY(25%);
+  transform: translateY(10%);
   border-radius: 5rem;
 }
 
 /* BACKGROUND COLORS */
 .top_section {
   background-color: #fff;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .medium_blue {
@@ -82,10 +83,13 @@ div.medium_blue p .dollars {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
+  vertical-align: middle;
 }
 
 div.medium_blue p .per_month {
   color: rgba(255, 255, 255, 0.562);
+  vertical-align: middle;
+  padding-left: 3%;
 }
 
 /* I AM A FLEX ITEM */
@@ -113,7 +117,30 @@ div.medium_blue p {
 
 div.medium_blue h2 {
   margin-left: 2rem;
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+/* TOP WHITE MAIN SECTION */
+div.top_section p {
+  color: var(--medium-grey);
+  line-height: 1.7;
+  margin-left: 2rem;
+  width: 310px;
+  margin-bottom: 2rem;
+}
+
+div.top_section h3 {
+  color: var(--ugly-green-yellow);
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+div.top_section h2 {
+  color: var(--middle-blue-color);
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 
@@ -124,10 +151,7 @@ div.medium_blue h2 {
 
 
 
-
-
-
-/* FOOTER SECTION */
+/* FOOTER SECTION
 #footer {
   display: none;
 }
@@ -149,4 +173,4 @@ div.medium_blue h2 {
   border-radius: 5rem;
   transform: translateX(25%);
   transform: translateY(9rem);
-}
+} */
