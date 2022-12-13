@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+[Mobile Screenshot]
 
 
 ### Links
@@ -43,14 +43,16 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
+- CSS Flexbox
 - Mobile-first workflow
 
 ### What I learned
+- I need to learn CSS Grid, as this design was supposed to be built with CSS Grid, but to make things easier for myself, I turned to flexbox.
 
 ### Useful resources
 - [W3Schools](https://www.w3schools.com)
 - [MDN](https://developer.mozilla.org/en-US/)
+- [Stack-Overflow](https://stackoverflow.com/)
 
 ## Author
 
