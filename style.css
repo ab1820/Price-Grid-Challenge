@@ -13,12 +13,13 @@
   --ugly-green-yellow: hsl(71, 73%, 54%);
   --medium-grey: hsl(218, 22%, 67%);
   --middle-blue-color: hsl(179, 62%, 43%);
+  --light-blue-color: hsl(179, 61%, 50%);
 }
 
 body {
   font-family: 'Karla', sans-serif;
-  text-decoration: none;
   background-color: var(--main-background-color);
+  font-size: 16px;
 }
 
 /* MAIN STYLING - MOBILE FIRST */
@@ -32,4 +33,37 @@ body {
   margin: auto;
   align-content: center;
   transform: translateY(25%);
+  border-radius: 5rem;
+}
+
+/* BACKGROUND COLORS */
+.top_section {
+  background-color: #fff;
+}
+
+.medium_blue {
+  background-color: var(--middle-blue-color);
+}
+
+.light_blue {
+  background-color: var(--light-blue-color);
+  padding: 1.5rem 1.5rem;
+  border-radius: 0 0 0.5rem 0.5rem; /* top left, top right, bottom left, bottom right */
+}
+
+
+/* BOTTOM LIGHT BLUE SECTION */
+div.light_blue ul li {
+  color: #fff;
+  text-decoration: none;
+  font-weight:lighter;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+div.light_blue h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  
 }
