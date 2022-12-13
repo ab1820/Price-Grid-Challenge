@@ -29,7 +29,7 @@
     <div class="medium_blue">
       <h2>Monthly Subscription</h2>
 
-      <p>&dollar;29 per month</p>
+      <p><span class="dollars">&dollar;29</span> <span class="per_month">per month</span></p>
 
       <p>Full access for less than &dollar;1 a day</p>
 
@@ -53,11 +53,26 @@
   </div>
 
   <footer>
-    <p class="attribution">
+    <button class="click" onclick="myFunction()">Credits...</button>
+    <!-- <div id="footer"> -->
+    <p id="footer" class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://www.github.com/ab1820">Amanda Buttineau</a>.
     </p>
+  <!-- </div> -->
   </footer>
+
+<!-- CREDITS BUTTON TO SHOW FOOTER SECTION -->
+  <script>
+    function myFunction() {
+      let x = document.getElementById("footer");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 </body>
 
 </html>
