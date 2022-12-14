@@ -1,0 +1,68 @@
+/* DEKSTOP STYLES */
+@media (min-width: 750px) {
+  .flex-container {
+    display: flex;
+    align-items: center;
+    transform: translateY(40%);
+    min-width: 700px;
+  }
+
+  /* TOP SECTION */
+  .top_section {
+    width: 700px;
+    height: 220px;
+  }
+
+  div.top_section h2,
+  div.top_section h3,
+  div.top_section p {
+    width: 550px;
+    margin-left: 3.2rem;
+  }
+
+  /* MIDDLE SECTION */
+  .medium_blue,
+  .light_blue {
+    width: 350px;
+  }
+
+  .mid-container {
+    display: flex;
+    flex-direction: row;
+    /* height: 270px; */
+  }
+
+  .medium_blue {
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  button {
+    padding: 1rem 6rem;
+    margin-bottom: 2.5rem;
+  }
+
+  div.medium_blue h2 {
+    margin-top: 2.5rem;
+    margin-left: 3.2rem;
+    margin-bottom: 1.3rem;
+  }
+
+  div.medium_blue p {
+    margin-left: 3.2rem;
+    margin-top: 0.5rem;
+  }
+
+  /* BOTTOM SECTION */
+  .light_blue {
+    border-radius: 0 0 0.5rem 0;
+  }
+
+  div.light_blue h2 {
+    margin-top: 0.9rem;
+    margin-left: 1.3rem;
+  }
+
+  div.light_blue ul {
+    margin-left: 1.3rem;
+  }
+}
